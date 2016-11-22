@@ -4,8 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta name="author" content="Karla Nayeli Miranda Robledo">
-	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
-	<meta name="Resource-type" content="Document"/>
 	<!---->
 	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700" rel="stylesheet">
@@ -15,85 +13,67 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<!--script-->
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<!--parallax-->
 	<script type="text/javascript" src="js/portafolio.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.js"></script>
-	
 </head>
 <body>
 	<div class="container-fluid">
-		<!--<section id="hero" class="hero">
-			<nav class="navbar-hero hidden-xs">
-				<div class="navbar-container"><a class="navbar-name">
-					<div class="logo-container">
-						<div class="gear-navigation-large light"></div><div class="gear-navigation-small light"></div>
-					</div></a>
-					<ul class="navbar-links">
-						<li><a href="#about" class="about-link highlight">ABOUT</a></li>
-						<li><a href="#resume" class="resume-link">RESUME</a></li>
-						<li><a href="#contact" class="contact-link">CONTACT</a></li>
-					</ul>
-				</div>
-			</nav>
-			<a href="#about" title="About section" class="hero-arrow"></a>
-		</section>-->
 		<section><!--inicia el menu-->
-			<div class="row"><!--Menu-->
-				<div class="col-xs-12 col-md-12 col-lg-12">
-					<div class="container-fluid">
-						<div class="navbar navbar-brand navbar-fixed-top">
-						    <div class="morado navbar-header">
-							     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar-1">
-							        <span class="navcolor icon-bar"></span>
-							        <span class="navcolor icon-bar"></span>
-							        <span class="navcolor icon-bar"></span>
-							     </button>
+			<header>
+     		   <div class="row"><!--Menu-->
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div class="navbar morado navbar-fixed-top">
+						    <div class="container">
+						    	<div class="morado navbar-header">
+								     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+								        <p class="colorAdi">MENU</p>
+								     </button>
+							    </div>
+						    	<div class="collapse navbar-collapse morado" id="myNavbar"><!--Inicio menu despegable-->
+								      <ul class="morado nav navbar-nav navbar-right">
+							            <li class="blanco"><a class="negro letra" href="#Yo">Sobre mi</a></li>
+							            <li class="blanco"><a class="negro letra" href="#Proyectos">Proyectos</a></li>
+							            <li class="blanco"><a class="negro letra" href="#Conocimientos">Conocimientos</a></li>
+							            <li class="blanco"><a class="negro letra" href="#Contactame">Contactame</a></li>
+								      </ul>
+						    	</div>
 						    </div>
-					    	<div class="morado collapse navbar-collapse" id="myNavbar-1"><!--Inicio menu despegable-->
-							      <ul class="morado nav navbar-nav navbar-right">
-						            <li class="morado"><a class="negro" href="#Yo">Sobre mi</a></li>
-						            <li class="morado"><a class="negro" href="#Proyectos">Proyectos</a></li>
-						            <li class="morado"><a class="negro" href="#Conocimientos">Conocimientos</a></li>
-						            <li class="morado"><a class="negro" href="#Contactame">Contactame</a></li>
-							      </ul>
-					    	</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</header>
 		</section><!--termina seccion de menu-->
-		<section id="Yo"><!--texto mio-->
-			<div class="container-fluid">
-				<div class="row margintop"><!--Aqui va a ir img de fondo-->
-					<div class="col-xs-6 col-md-6 col-lg-6">
-						<div class="fondo">
-							
-						</div>
-					</div>
-					<div class="col-xs-6 col-md-6 col-lg-6">
-						<div class="row margintop">
-							<div class="col">
-								<p class="text-right fa-2x letra segundo">Nayeli
-								<span class="letra">Miranda</span></p>
-							</div>
-						</div>
-						<div class="row margintop">
-							<div class="hidden-xs col-lg-12">
-								<p class="text-right negro fa-2x">Lic.Sistemas Computacionales <span> | </span>Desarrolladora Web </p>
-							</div>
-						</div>
-						<div class="row margintop">
-							<div class="hidden-xs col-lg-12">
-						 		<p class="text-center colorAdi fa-2x">Soy una coder comprometida , divertida y sobre todo con muchas ganas de seguir creciendo </p>
-							</div>
-						</div>
-					</div>
+		<section data-type="parallax_section" data-speed="10" id="Yo" class="Yoo"><!--texto mio-->
+			<div class="row"><!--Aqui va a ir img de fondo-->
+				<div class="col-xs-12 col-md-12 col-lg-6">
+					<strong><p class="text-center margintop fa-2x letra colorAdi">N
+					<span class="blanco">A</span>
+					<span>Y</span>
+					<span class="blanco">E</span>
+					<span>L</span>
+					<span class="blanco">I</span>
+					<span class="letra ancho colorAdi">M</span>
+					<span class="blanco">I</span>
+					<span>R</span>
+					<span class="blanco">A</span>
+					<span>N</span>
+					<span class="blanco">D</span>
+					<span>A</span></p></strong>
+					<!--PARRAFOS LICENCIATURA-->
+					<p class="text-left colorAdi margintop">Lic.Sistemas Computacionales <span class="blanco">|</span>Desarrolladora Web </p>
+					<p class="text-center blanco fa-2x">Soy una coder</p>
+					<span class="word-rotate-items">
+						<span class="blanco fa-2x">Comprometida <span class="colorAdi">|</span></span>
+						<span class="blanco fa-2x">Innovadora <span class="colorAdi">|</span></span>
+						<span class="blanco fa-2x">Proactiva <span class="colorAdi">|</span></span>
+					</span>
+				</div>
+				<div class="hidden-xs col-xs-6 col-md-6 col-lg-6">
+					<img class="img-responsive center-block img-circle" src="img/perfil2.jpg" alt="FotoNayeli">
 				</div>
 			</div>
 		</section>
-		<section id="Proyectos" class="fondoimage"><!--Aqui va a ir seccion de proyectos -->
+		<section data-type="parallax_section" data-speed="10" id="Proyectos" class="fondoimage"><!--Aqui va a ir seccion de proyectos -->
 			<div class="row"><!--titulo de proyectos y los hr-->
 				<div class="col-xs-12 col-md-12 col-lg-12">
 					<p class="text-center fa-2x"> PROYECTOS </p>
@@ -112,22 +92,22 @@
 						<!--Se agrega el contenido del slide-->
 						<div class="carousel-inner" role="listbox">
 							<div class="item active"><!--Imagen slider1-->
-								<img class="img-responsive" src="img/pagina1/01.jpg" alt="slider1">
+								<img class="img-responsive" src="img/pagina1/02.jpg" alt="slider1">
 								<div class="carousel-caption transparente"><!--texto del slide-->
 									<button class="btn morado2"> VER MAS </button>
 								</div>
 							</div>
 							<div class="item"><!--Imagen slider1-->
-								<img class="img-responsive" src="img/pagina1/001.jpg" alt="slider2">
+								<img class="img-responsive" src="img/pagina1/03.jpg" alt="slider2">
 							</div>
 							<div class="item"><!--Imagen slider2-->
-								<img class="img-responsive" src="img/pagina1/02.jpg" alt="slider3">
+								<img class="img-responsive" src="img/pagina1/04.jpg" alt="slider3">
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-md-12 col-lg-12 margintop">
-							<p class="text-center">Proyecto escuela de baile</p>
+							<p class="text-center fa-2x letra">Proyecto escuela de baile</p>
 						</div>
 					</div>
 					<a href="#Proyectos"></a>
@@ -171,7 +151,7 @@
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-md-12 col-lg-12 margintop">
-							<p class="text-center">Proyecto servicios User Testing 360</p>
+							<p class="text-center fa-2x letra">Proyecto servicios User Testing 360</p>
 						</div>
 					</div>
 				</div>
@@ -221,24 +201,23 @@
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-md-12 col-lg-12 margintop">
-							<p class="text-center">Proyecto tienda de Accesorios</p>
+							<p class="text-center fa-2x letra">Proyecto tienda de Accesorios</p>
 						</div>
 					</div>
 				</div>
 			</div><!--fin proyectos slider-->
 		</section><!--termina seccion proyectos-->
-		<section id="Conocimientos" class="claro"><!--Aqui va a ir seccion de Conocimientos -->
+		<section data-type="parallax_section" data-speed="10" id="Conocimientos" class="claro"><!--Aqui va a ir seccion de Conocimientos -->
 			<a href="#Conocimientos""></a>
-			<div class="row margintop"><!--FRAMEWORKS-->
+			<div class="row"><!--FRAMEWORKS-->
 				<div class="col-xs-4 col-md-4 col-lg-4">
-					<p class="text-left">FRAMEWORKS</p>
+					<p class="margintop text-left">FRAMEWORKS</p>
 				</div>
 				<div class="col-xs-8 col-md-8 col-lg-8">
 					<!--Inicia barras progress de framworks-->
-					<span><p class="text-left ">Bootstrap</p></span>
-	                <div class="progress">
+	                <div class="margintop progress">
 	                    <div class="progress-bar progress-bar-warning" aria-valuemax="90" style="width: 75%">
-	                    <span class="negro">75%</span>
+	                    <span class="negro">bootstrap 75%</span>
 	                    </div>
 	                </div>
 				</div>
@@ -252,15 +231,14 @@
 					<!--Inicia barras progress de lenguajes-->
 	                <div class="progress">
 	                    <div class="progress-bar progress-bar-warning" aria-valuemax="90" style="width: 50%">
+	                    <span class="negro">Javascript 50%</span>
 	                    </div>
 	                </div>
-	                <p class="ColorWhite small">Javascript</p>
 	                <div class="progress">
 	                    <div class="progress-bar progress-bar-warning" aria-valuemax="90" style="width: 50%">
-	                    <span class="negro">50%</span>
+	                    <span class="negro">c# 50%</span>
 	                    </div>
 	                </div>
-	                <p class="ColorWhite small">C#</p>
 				</div>
 			</div>
 			<div class="row"><!--MAQUETACION-->
@@ -272,40 +250,52 @@
 					<!--Inicia barras progress de lenguajes-->
 	                <div class="progress">
 	                    <div class="progress-bar progress-bar-warning" aria-valuemax="90" style="width: 90%">
-	                    <span class="negro">80%</span>
+	                    <span class="negro"> HTML  80%</span>
 	                    </div>
 	                </div>
-	                <p class="ColorWhite small">HTML</p>
+	                <p class="ColorWhite small"></p>
 	                <div class="progress">
 	                    <div class="progress-bar progress-bar-warning" aria-valuemax="90" style="width: 60%">
-	                    <span class="negro">60%</span>
+	                    <span class="negro">CSS 60%</span>
 	                    </div>
 	                </div>
-	                <p class="ColorWhite small">CSS</p>
 				</div>
 			</div>
 		</section><!--termina seccion de conocimientos-->
-		<section id="Contactame" class="margintop" ><!-- Seccion contactame-->
-			<div class="row margintop">
-				<a href="#Contactame"></a>
-				<p class="text-center fa-2x">CONTACTAME</p>
+		<section data-type="parallax_section" data-speed="10" id="Contactame" class="claro" ><!-- Seccion contactame-->
+			<div class="row">
+				<div class="col-xs-12 col-md-12 col-lg-12">
+					<a href="#Contactame"></a>
+					<p class="text-center margintop fa-2x">CONTACTAME</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-12 col-lg-12">
+					<a class="pull-right" href="#">Descarga mi CV</a>
+				</div>
+			</div>
+			<div class="row">
 				<div class="col-xs-4 col-md-4 col-lg-4  margintop">
-					<a target="_blanck" href="http://github.com/NayeMR"><img id="img1" class="img-responsive margin linea" src="img/icono/github.png" alt="github">
+					<a target="_blanck" href="http://github.com/NayeMR"><img id="img1" class="img-responsive center-block" src="img/icono/github.png" alt="github">
 					</a>
-					<span class="letra">github.com/NayeMR</span>
+					<p class="letra text-center">github.com/NayeMR</p>
 				</div>
 				<div class="col-xs-4 col-md-4 col-lg-4  margintop">
-					<a target="_blanck" href="http://www.gmail.com"><img id="img2" class="img-responsive margin linea" src="img/icono/gmail.png" alt="gmsil"></a>
-
-					<span class="letra">naye.mirandys.gmail.com</span>
+					<a target="_blanck" href="http://www.gmail.com"><img id="img2" class="img-responsive center-block " src="img/icono/gmail.png" alt="gmail"></a>
+					<p class="letra text-center">naye.mirandys.gmail.com</p>
 				</div>
 				<div class="col-xs-4 col-md-4 col-lg-4  margintop">
-					<a target="_blanck" href="http://mx.linkedin.com/"><img id="img3" class="img-responsive margin linea" src="img/icono/linkedin.png" alt="linkedin"></a>
-					<span class="letra">linkeding/NayeMR</span>
+					<a target="_blanck" href="http://mx.linkedin.com/"><img id="img3" class="img-responsive center-block" src="img/icono/linkedin.png" alt="linkedin"></a>
+					<p class="letra text-center">linkeding/NayeMR</p>
 				</div>
 			</div>
 		</section><!--fin de contactame-->
 	</div>
+	<!--script-->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!--jquery-->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
 	<!--script de texto-->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
  	<script src="jquery.fittext.js"></script>
@@ -314,8 +304,6 @@
 		$("#fittext2").fitText(1.2);
 		$("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
 	</script>
-	<!---->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
