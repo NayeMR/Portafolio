@@ -1,0 +1,10 @@
+/* Inserta tu codigo aqui */
+.cuadro
+{
+	width: 800px;
+	height: 250px;
+	background-color: #C0C0C0;
+	float: left;
+	clear: both;
+	margin: 2% 5%;
+}

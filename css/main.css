@@ -1,122 +1,170 @@
+/*@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);*/
 *{
 	margin:0% !important;
+	color: white !important;
+	font-size: 18px;
 }
-.fondo1{
-	/*background-image: url(../img/perfil.jpg);*/
-	background-image: url(../img/perfil2.jpg);
-	background-repeat: no-repeat;
-	background-size: fixed;
-	width: 100%;
-	height: 100%;
+hr{
+	border: 2px solid;
+}
+.padding-left{
+	padding-left: 8%;
+}
+.yoFont{
+	font-family: 'Crimson Text', serif;
 }
 .segundo {
-  color: #032;
+    color: #032;
 }
 .tercero {
-  background-color: green;
+	background-color: green;
 }
-a{
-	list-style-type: none;
+.btnblanco{
+	background-color: white;
 }
-.letra{
-	font-family: 'Roboto', sans-serif;
+.pd-0{
+	padding: 2%;
 }
-.normal{
-	height: 40%;
+.pd-1{
+	padding: 22%;
+}
+.pd-2{
+	padding: 10%;
+}
+.pd-3{
+	padding: 9%;
 }
 .morado{
 	background-color: #BC8F8F;
 }
 .morado2{
-	background-color: rgb(160,80,105);
+	color: rgb(160,80,105);
+}
+.bgnegro{
+	background-color: rgba(0, 0, 0,0.5);
+}
+.morado3{
+	background-color: rgba(160,80,105, 0.6);
+}
+.bgcolorRosa{
+	background-color: rgba(250, 128, 114, 0.3);
+}
+.imgperfil{
+    border: 3px solid #BC8F8F;
 }
 .transparente{
 	background-color: transparent;
 }
-.marge-perfil-foto{
-	margin:0%;
+.clar{
+	background-color: rgb(207,177,147);
+}
+.normal{
+	height: 40%;
+}
+.imgBiciando{
+	width: 35%;	
+	height: 35%;
+}
+.imgBaile{
+	width: 70%;
+	height: 70%;
+}
+.imgAccesorios{
+	width: 80%;
+	height: 70%;
+}
+.imgTesting{
+	width: 78%;
+	height: 40%;
 }
 .negro{
 	color: black;
 }
 .blanco{
-	color:  white !important;
+	color: white;
 }
 .colorAdi{
-	color:#FA8072 !important;
-}
-.claro{
-	background-color: #BA9F84;
+	color: #FA8072 !important;
 }
 .anchoalto{
 	width: 10%;
 	height: 10%;
 }
-.btnblanco{
-	background-color: white;
-}
 .margin{
 	margin:10% 13%;
 }
-.margen{
-	margin:3%;
+.margenperfil{
+	margin:0% 2%;
 }
-.marginperfil{
-	margin:0%;
-	padding: 20%;
+.margenfoto{
+	margin:0% 10% 0% 10% !important;
+}
+.margenfotobICIANDO{
+	margin:0% 30% 0% 30% !important;
+}
+.margenfotoContact{
+	margin:0% 40% 0% 40% !important;
+}
+.bgcolorPerfil{
+	 background-color:rgb(160,80,105);
 }
 .ancho{
 	padding-left: 5%;
 }
 .margintop{
-	margin-top: 6%;
+	margin-top: 5% !important;
 }
-.margintopmenu{
-	margin-top: 0em;
+.marginbottom{
+	margin-bottom: 2em;
 }
 .linea{
 	display: inline;
 }
+.margingif{
+	margin:20% 20% 0% 50% !important;
+}
 .vertical{
 	transform: rotate(90deg);
+}
+.gif{
+	z-index: 1000; 
+	position: absolute;
+	top: 0px; 
+	left: 0px;
+	background-color: rgb(160,80,105);
+	width: 100%;
+	height: 100%;
+}
+.divContent{
+	z-index: 2;
+	position: absolute; 
+	top: 0px; 
+	left: 0px;"
 }
 ul>li{
 	list-style-type: none;
 }
-.Yoo{
-	background-image: url(../img/fondo2.jpg);
+.body{
+	background-image: url(../img/fondoPrincipal.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	padding-top: 10em;
-	width: 100%;
 }
-#Proyectos{
+#Proyect{
 	background-image: url(../img/contactus.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	background-position:right;
-	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
-	box-shadow: 0 0 20px rgba(0,0,0,0.4);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 }
-#Conocimientos{
+#Conocimiento{
 	background-image: url(../img/hero.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	min-height: 100%;
-	margin: 0 auto;
-	width: 100%;
-	max-width: 100%;
-	position: relative;
-	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
-	box-shadow: 0 0 20px rgba(0,0,0,0.4);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	opacity: 1;
+}
+#cont {
+  margin: 5%;
+  width: 60%;
+  height: 10%;
+  position: relative;
 }

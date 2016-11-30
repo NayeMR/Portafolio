@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px){
+	.fa-2x{
+		font-size: 18px !important;
+		padding: 1%;
+	}
+	img{
+		width: 70%;
+		height: 50%;
+	}
+}

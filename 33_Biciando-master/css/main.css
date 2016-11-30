@@ -1,0 +1,34 @@
+/*Inici css*/
+.linea{
+	display: inline;
+	margin: 6%;
+}
+.CAzul{
+	background-color: #00a694;
+}
+.LetraWhite{
+	color: white;
+}
+.Fondo{
+	background-image: url("../img-index/bici_1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 18%;
+}
+.tama{
+	width: 15%;
+}
+.input{
+	width: 100%;
+}
+.mg-top28{
+	margin-top: -16%;
+}
+.mg-top{
+	margin-top: 33%;
+}
+*{
+	font-family: 'Architects Daughter';
+	font-size: 1em;
+}
+
