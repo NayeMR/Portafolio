@@ -9,11 +9,13 @@
 .LetraWhite{
 	color: white;
 }
-.Fondo{
+body{
 	background-image: url("../img-index/bici_1.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
-	padding: 18%;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+
 }
 .tama{
 	width: 15%;
