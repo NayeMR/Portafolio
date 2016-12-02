@@ -1,0 +1,100 @@
+*{
+	margin:0%;
+}
+li{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+footer{
+	background-color: #003366;
+	margin-top: 5%;
+
+}
+iframe{
+	width:80%;
+	height:35%;
+	margin-left: 10%;
+}
+.fondo{
+	background-image: url("../img/large.jpg");
+	background-repeat: no-repeat;
+	background: rgb(0, 191, 255, 2);
+	padding: 15%;
+	background-size: cover;
+}
+.parrafos{
+	display: inline-block;
+}
+.linea{
+	display: block; 
+}
+.img{
+	opacity: 0.6;
+}
+.box-shadow{
+	box-shadow: 10px 10px 5px white;
+}
+.opa{
+	background-color: #6699FF;
+	opacity: 0.5;
+}
+.colorBlue{
+	color: #6699FF;
+}
+.colorWhite{
+	color: white;
+}
+.colorNegro{
+	color: black;
+}
+.navcolor{
+	background-color: blue !important;
+}
+.margin{
+	margin-top: 10%;
+}
+.marg{
+	margin: 7%;
+}
+.mini{
+	background-color:  #9CC8EC;
+	margin-bottom: 40%;
+}
+.peque{
+	height: 25%;
+	width: 40%;
+}
+.mediana{
+	height:50%;
+	width: 50%;
+}
+.ImgCirculo{
+	border-radius: 100%;
+	box-shadow: -1px 2px 5px gray;
+	height:  50%;
+}
+.cuadromodal{
+	width:43%;
+	height: 15%;
+	background-color: white;
+	position: relative;
+}
+.modalnone{
+	display: none;
+}
+.letra{
+	font-weight: bold;
+}
+/*Hace la imagen gris*/
+.bw {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.bw:hover {
+  -webkit-filter: grayscale(100%);
+}

@@ -1,0 +1,47 @@
+/* Inicio de clases CSS Home*/
+.BagBalck{
+	background-color: #000000;
+}
+.BagWhite{
+	background-color: white;
+}
+.BagGray{
+	background-color: gray;
+}
+.BagGrayClaro{
+	background-color: #D3D3D3;
+}
+.CWhite{
+	color: white;
+}
+.CBlack{
+	color: black;
+}
+.CRed{
+	color: #FF0000;
+}
+.input1{
+	height: 20%;
+}
+.fondo{
+	background-image: url("../img/client-bg.jpg");
+	background-repeat: no-repeat;
+	padding: 4%;
+}
+.linea{
+	display: inline-block;
+}
+.imgclient{
+	width: 10%;
+	height: 10%;
+	margin-left:5%;
+	margin-left:5%;
+}
+.HrGrosor{
+	height: 5%;
+}
+.border{
+	border:2px solid gray;
+	width: 100%;
+	height: 100%;
+}

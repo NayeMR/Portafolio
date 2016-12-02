@@ -5,7 +5,7 @@
 	font-size: 18px;
 }
 hr{
-	border: 2px solid;
+	border: 1px solid;
 }
 .padding-left{
 	padding-left: 8%;
@@ -50,7 +50,7 @@ hr{
 	background-color: rgba(250, 128, 114, 0.3);
 }
 .imgperfil{
-    border: 3px solid #BC8F8F;
+    border: 2px solid #BC8F8F;
 }
 .transparente{
 	background-color: transparent;
@@ -63,7 +63,7 @@ hr{
 }
 .imgBiciando{
 	width: 35%;	
-	height: 35%;
+	height: 5%;
 }
 .imgBaile{
 	width: 70%;
@@ -114,6 +114,12 @@ hr{
 .margintop{
 	margin-top: 5% !important;
 }
+.marginbottom2{
+	margin-bottom: 3em !important;
+}
+.margintopHabilidades{
+	margin-top: 5em !important;
+}
 .marginbottom{
 	margin-bottom: 2em;
 }
@@ -150,21 +156,14 @@ ul>li{
 	background-size: cover;
 	background-attachment: fixed;
 }
-#Proyect{
-	background-image: url(../img/contactus.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+#perfil{
+	width: 20%;
+	height: 20%;
+	margin-right: 39% !important;
+	margin-left: 39% !important;
 }
-#Conocimiento{
-	background-image: url(../img/hero.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-#cont {
-  margin: 5%;
-  width: 60%;
-  height: 10%;
-  position: relative;
+#star span a img{
+	display: inline;
+	margin-right: 5% !important;
+	margin-left: 70% !important;
 }

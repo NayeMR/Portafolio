@@ -1,0 +1,66 @@
+.fondo{
+	/*background-image: url(../img/perfil.jpg);*/
+	background-image: url(../img/grupal.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 15%;
+}
+hr{
+	width: 25%;
+	border: 1px solid;
+}
+ul>li{
+	color: rgb(102,133,136);
+}
+p{
+	color:rgb(193,183,174);
+}
+.margin{
+	margin-top: 5%;
+}
+.morado{
+	color: rgb(160,80,105);
+}
+.colorAdi{
+	color: rgb(228,234,164);
+}
+.blanco{
+	color: rgb(239,238,233);
+}
+.marginCero{
+	margin:0% !important;
+}
+.vertical{
+	transform: rotate(90deg);
+}
+*{
+	font-family: arial;
+	font-size: 24px;
+	background-color: rgb(239,238,233);
+}
+/*otro*/
+h1{
+	font-size: 5em;
+	font-family: arial,helvetica;
+	color: #fff;
+	margin:0;
+}
+.intro p{
+	color: #fff;
+}
+/* Centered texts in each section
+	* --------------------------------------- */
+.section{
+	text-align:center;
+}
+/* Overwriting styles for control arrows for slides*/
+.controlArrow.prev {
+	left: 50px;
+}
+.controlArrow.next{
+	right: 50px;
+}
+/* Bottom menu ----------------- */
+#infoMenu li a {
+	color: #fff;
+}

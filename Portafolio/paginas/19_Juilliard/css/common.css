@@ -1,0 +1,84 @@
+/* Inserta tu codigo que es común para todas las páginas aqui */
+footer{
+	padding: 2%;
+	border-bottom : 3px solid black;
+	color: white;
+	background-color: #192951;
+}
+li
+{
+	position: relative;
+	display: inline-block;
+	padding: 5%;
+	margin:0%;
+	left: 18%;
+}
+.Cblue
+{
+	background-color: #192951;
+	margin: 0px;
+}
+.Cgray
+{
+	background-color:#DCDCDC;
+	margin: 0px;
+}
+.estandar
+{
+	width: 100%;
+	width: 100%;
+}
+.peque
+{
+	width: 50%;
+	height: 50%;
+}
+.mediana
+{
+	width: 60%;
+	height: 60%;
+}
+.img
+{
+	height: 30%;
+}
+.btnbig
+{
+	display: block;
+	width: 400px;
+	height: 40px;
+	margin: 1%;
+	color: white;
+	cursor: pointer;
+}
+.btnmedium
+{
+	display: block;
+	width: 150px;
+	height: 50px;
+	border: 12%;
+	color: white;
+	cursor: pointer;
+}
+.iconousuario
+{
+	background-image: url("../img/icono/usuario.png");
+	background-repeat: no-repeat;
+}
+.iconoemail
+{
+	background-image: url("../img/icono/email.png");
+	background-repeat: no-repeat;
+}
+.iconomensaje
+{
+	background-image: url("../img/icono/mensaje.png");
+	background-repeat: no-repeat;
+}
+.fondozapatilla
+{
+	background-image: url("../img/shoes_1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 600px;
+}
