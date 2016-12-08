@@ -1,26 +1,32 @@
 /*@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);*/
+
 *{
-	margin:0% !important;
 	color: white !important;
-	font-size: 18px;
 }
 hr{
 	border: 1px solid;
 }
-.padding-left{
+.padding-lef{
 	padding-left: 8%;
 }
 .yoFont{
 	font-family: 'Crimson Text', serif;
 }
-.segundo {
+.segundo{
     color: #032;
-}
-.tercero {
+} 
+.tercero{
 	background-color: green;
 }
 .btnblanco{
 	background-color: white;
+}
+.imgperfilcenter-block{
+
+}
+.caja{
+	background-color:#50A087;
+	opacity: 0.5;
 }
 .pd-0{
 	padding: 2%;
@@ -61,20 +67,24 @@ hr{
 .normal{
 	height: 40%;
 }
+.imgFlores{
+	width: 50%;
+	height: 50%;
+}
 .imgBiciando{
-	width: 35%;	
-	height: 5%;
+	width: 50%;	
+	height: 60% !important;
 }
 .imgBaile{
-	width: 70%;
+	width: 50%;
 	height: 70%;
 }
 .imgAccesorios{
-	width: 80%;
+	width: 50%;
 	height: 70%;
 }
 .imgTesting{
-	width: 78%;
+	width: 50%;
 	height: 40%;
 }
 .negro{
@@ -127,10 +137,16 @@ hr{
 	display: inline;
 }
 .margingif{
-	margin:20% 20% 0% 50% !important;
+	margin:20% 44% 20% 44% !important;
 }
 .vertical{
 	transform: rotate(90deg);
+}
+.fondoIcono{
+	background-image: url(../img/icono/cv2.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 50% 50%;
 }
 .gif{
 	z-index: 1000; 
@@ -141,29 +157,27 @@ hr{
 	width: 100%;
 	height: 100%;
 }
-.divContent{
+.divConten{
 	z-index: 2;
 	position: absolute; 
-	top: 0px; 
-	left: 0px;"
+	top: 0%; 
+	left: 0%;"
 }
 ul>li{
 	list-style-type: none;
 }
 .body{
 	background-image: url(../img/fondoPrincipal.jpg);
+	width: 100%;
+	height: 100%;
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
 }
-#perfil{
-	width: 20%;
-	height: 20%;
-	margin-right: 39% !important;
-	margin-left: 39% !important;
+.medio{
+	width: 100%;
+	display: inline-block;
+	border: 2px solid #a05069;
 }
-#star span a img{
-	display: inline;
-	margin-right: 5% !important;
-	margin-left: 70% !important;
+.peque{
+	width: -30%;
+	height: -30%;
 }

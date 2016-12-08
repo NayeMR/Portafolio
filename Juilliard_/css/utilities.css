@@ -55,7 +55,6 @@
 .text-blue{
  color: #192951;
 }
-
 .a-none-decoration{
 	text-decoration: none;
 }
@@ -66,8 +65,4 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-}
-.bold
-{
-	font-weight: bold;
 }

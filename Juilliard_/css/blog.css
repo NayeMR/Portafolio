@@ -1,10 +1,140 @@
-/* Inserta tu codigo aqui */
-.cuadro
-{
-	width: 800px;
-	height: 250px;
-	background-color: #C0C0C0;
-	float: left;
-	clear: both;
-	margin: 2% 5%;
+/* header */
+header{
+	margin: 20px;
+}
+h1{
+	text-align: center;
+	color: #0B0B61;
+}
+ul{
+	text-align: center;
+	padding: 5px;
+}
+li{
+	display: inline-block;
+	color: lightgray;
+	padding: 30px;
+	font-size: 16px;
+}
+/* seccion articulos */
+.fondart{
+	background-color: #F2F2F2;
+	height: 1100px;
+}
+.fonclaro{
+	background-color: lightgray;
+	height: 230px;
+	width: 1210px;
+	margin-left: 110px;
+	margin-bottom: 50px;
+}
+.blog{
+	font-size: 22px;
+	font-weight: 700;
+	margin-left: 0px;
+	padding: 40px 0px 40px 0px;
+	text-align: center;
+	margin: 25px 0px;
+}
+.imgblog{
+	height: 230px;
+	width: 250px;
+	margin-left: -14px;
+}
+h4{
+	margin: 35px 0px 0px -120px;
+
+}
+.fechas{
+	margin: 10px 0px 0px -120px;
+	color: #F2F2F2;
+}
+.infoart{
+	margin: 10px 0px 0px -120px;
+}
+.but{
+	background-color: #0B0B61;
+	border: none;
+	padding: 15px;
+	width: 250px;
+	color: white;
+	font-size: 18px;
+	margin: 30px 0px 0px -120px;
+	border-radius: 2px;
+	
+}
+
+/* seccion contactanos*/
+.puntas{
+	background-image: url("../img/shoes_1.jpg");
+	background-repeat: no-repeat;
+	text-align: right;
+	height: 500px;
+	margin-left: 100px;
+	background-position: right;
+}
+.contact{
+	text-align: left;
+	margin-top: 50px;
+	font-size: 30px;
+	color: #0B0B61; 
+	margin-left: 60px;
+}
+.formulario{
+	text-align: left;
+	margin-right: 500px;
+}
+.nombre{
+	display: block;
+	width: 450px;
+	font-size: 14px;
+	color: black;
+	margin-left: 50px;
+	padding: 10px 10px 10px 30px;
+	margin-top: 10px;
+	background-image: url("../iconos/user-2.png");
+	background-repeat: no-repeat;
+}
+.email{
+	display: block;
+	width: 450px;
+	font-size: 14px;
+	color: black;
+	margin-left: 50px;
+	padding: 10px 10px 10px 30px;
+	margin-top: 10px;
+	background-image: url("../iconos/email.png");
+	background-repeat: no-repeat;
+}
+.mensaje{
+	display: block;
+	width: 450px;
+	font-size: 14px;
+	color: black;
+	margin-top: 10px;
+	margin-left: 50px;
+	padding: 10px 10px 10px 30px;
+	background-image: url("../iconos/pencil.png");
+	background-repeat: no-repeat;
+}
+.butenv{
+	background-color: #0B0B61;
+	border: none;
+	padding: 15px;
+	width: 450px;
+	color: white;
+	font-size: 18px;
+	margin-top: 40px;
+	border-radius: 2px;
+	margin-left: 50px;
+}
+/* footer*/
+footer{
+	background-color: #0B0B61;
+	height: 60px;
+}
+.textfoot{
+	padding: 25px 0px 10px 25px;
+	color: white;
+	font-size: 14px;
 }

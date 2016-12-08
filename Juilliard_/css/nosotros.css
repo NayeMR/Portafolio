@@ -1,21 +1,176 @@
-/* Inserta tu codigo aqui */
-.fondochicosnosotros
-{
+/* header */
+header{
+	margin: 20px;
+}
+h1{
+	text-align: center;
+	color: #0B0B61;
+}
+ul{
+	text-align: center;
+	padding: 5px;
+}
+li{
+	display: inline-block;
+	color: lightgray;
+	padding: 30px;
+	font-size: 16px;
+}
+/* seccion nosotros*/
+.fondonosotros{
 	background-image: url("../img/dance_7.jpg");
-	background-size: 100%;
+	height: 480px;
+}
+.fondotexto{
+	background-color: black;
+	opacity: 0.5;
+	width: 600px;
+	margin-left: 400px;
+	margin-top: 200px;
+}
+.sobre{
+	font-size: 28px;
+	color: white;
+	font-weight: 700;
+	margin-left: 0px;
+	padding-top: 40px;
+	text-align: center;
+}
+.ts{
+	font-size: 14px;
+	color: white;
+	margin-left: 0px;
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+/* seccion pilares*/
+.fondopilares{
+	background-image: url("../img/cubes.png");
+	height: 350px;
+}
+.subti{
+	font-size: 28px;
+	color: gray;
+	font-weight: 700;
+	margin-left: 0px;
+	padding-top: 100px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+hr{
+	width: 50%;
+	margin-left: 115px;
+}
+.textpi{
+	text-align: center;
+	font-size: 14px;
+	padding-top: 20px;
+	color: gray;
+}
+/* seccion instructores*/
+.ti{
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 18px;
+	padding: 10px 0px 80px 0px;
+	text-align: left;
+}
+.instructores{
+	height: 250px;
+	width: 300px;
+	margin-right: 0px;
+	margin-left: 18px;
+}
+.in{
+	margin-left: 15px;
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+/* seccion frase*/
+.fondofrase{
+	background-image: url("../img/cubes.png");
+	height: 300px;
+}
+.frase{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 0px;
+	padding-top: 100px;
+}
+/* seccion contactanos*/
+.puntas{
+	background-image: url("../img/shoes_1.jpg");
+	background-repeat: no-repeat;
+	text-align: right;
+	height: 500px;
+	margin-left: 100px;
+	background-position: right;
+}
+.contact{
+	text-align: left;
+	margin-top: 50px;
+	font-size: 30px;
+	color: #0B0B61; 
+	margin-left: 60px;
+}
+.formulario{
+	text-align: left;
+	margin-right: 500px;
+}
+.nombre{
+	display: block;
+	width: 450px;
+	font-size: 14px;
+	color: black;
+	margin-left: 50px;
+	padding: 10px 10px 10px 30px;
+	margin-top: 10px;
+	background-image: url("../iconos/user-2.png");
 	background-repeat: no-repeat;
 }
-.fondonosotroscubes
-{
-	background-image: url("../img/fondo/cubes.png");
-	background-repeat:repeat;
-	background-size: 100%;
+.email{
+	display: block;
+	width: 450px;
+	font-size: 14px;
+	color: black;
+	margin-left: 50px;
+	padding: 10px 10px 10px 30px;
+	margin-top: 10px;
+	background-image: url("../iconos/email.png");
+	background-repeat: no-repeat;
 }
-.cuadronopasity
-{
-	opacity:0.5;
-	background-color: black;
-	width: 60%;
-	height: 60%;
-	margin:10% 28%;
+.mensaje{
+	display: block;
+	width: 450px;
+	font-size: 14px;
+	color: black;
+	margin-top: 10px;
+	margin-left: 50px;
+	padding: 10px 10px 10px 30px;
+	background-image: url("../iconos/pencil.png");
+	background-repeat: no-repeat;
+}
+.butenv{
+	background-color: #0B0B61;
+	border: none;
+	padding: 15px;
+	width: 450px;
+	color: white;
+	font-size: 18px;
+	margin-top: 40px;
+	border-radius: 2px;
+	margin-left: 50px;
+}
+/* footer*/
+footer{
+	background-color: #0B0B61;
+	height: 60px;
+}
+.textfoot{
+	padding: 25px 0px 10px 25px;
+	color: white;
+	font-size: 14px;
 }

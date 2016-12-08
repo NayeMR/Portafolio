@@ -1,14 +1,152 @@
-/* Inserta tu codigo aqui */
-.cuadronopasityclase
-{
-	opacity:0.4;
-	background-color: black;
-	width: 230px;
-	height: 180px;
-	margin:10% 28%;
-	color: white;
+/* header */
+header{
+	margin: 20px;
 }
-.img
-{
-	height: 430px;
+h1{
+	text-align: center;
+	color: #0B0B61;
+}
+ul{
+	text-align: center;
+	padding: 5px;
+}
+li{
+	display: inline-block;
+	color: lightgray;
+	padding: 30px;
+	font-size: 16px;
+}
+/* seccion clases*/
+.fonclas{
+	background-color: #F2F2F2;
+	height: 1250px;
+}
+.oferta{
+	font-size: 22px;
+	font-weight: 700;
+	margin-left: 0px;
+	padding: 70px 0px 20px 0px;
+	text-align: center;
+}
+.fotoclase{
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	margin-bottom: 0px;
+	margin-left: 38px;
+}
+.fotoclase2{
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	margin-top: 430px;
+	margin-bottom: 100px;
+	margin-left: 38px;
+}
+.infoc{
+	background-color: black;
+	opacity: 0.5;
+	width: 370px;
+	height: 130px;
+	position: relative;
+	top: 200px;
+	left: 52px;
+}
+.infoc2{
+	background-color: black;
+	opacity: 0.5;
+	width: 370px;
+	height: 130px;
+	position: relative;
+	top: 620px;
+	left: 52px;
+}
+.cn{
+	font-size: 14px;
+	color: white;
+	margin-left: 0px;
+	padding-top: 20px;
+	text-align: center;
+}
+.tc{
+	font-size: 14px;
+	color: white;
+	margin-left: 0px;
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+/* seccion contactanos*/
+.puntas{
+	background-image: url("../img/shoes_1.jpg");
+	background-repeat: no-repeat;
+	text-align: right;
+	height: 500px;
+	margin-left: 100px;
+	background-position: right;
+}
+.contact{
+	text-align: left;
+	margin-top: 50px;
+	font-size: 30px;
+	color: #0B0B61; 
+	margin-left: 60px;
+}
+.formulario{
+	text-align: left;
+	margin-right: 500px;
+}
+.nombre{
+	display: block;
+	width: 450px;
+	font-size: 14px;
+	color: black;
+	margin-left: 50px;
+	padding: 10px 10px 10px 30px;
+	margin-top: 10px;
+	background-image: url("../iconos/user-2.png");
+	background-repeat: no-repeat;
+}
+.email{
+	display: block;
+	width: 450px;
+	font-size: 14px;
+	color: black;
+	margin-left: 50px;
+	padding: 10px 10px 10px 30px;
+	margin-top: 10px;
+	background-image: url("../iconos/email.png");
+	background-repeat: no-repeat;
+}
+.mensaje{
+	display: block;
+	width: 450px;
+	font-size: 14px;
+	color: black;
+	margin-top: 10px;
+	margin-left: 50px;
+	padding: 10px 10px 10px 30px;
+	background-image: url("../iconos/pencil.png");
+	background-repeat: no-repeat;
+}
+.butenv{
+	background-color: #0B0B61;
+	border: none;
+	padding: 15px;
+	width: 450px;
+	color: white;
+	font-size: 18px;
+	margin-top: 40px;
+	border-radius: 2px;
+	margin-left: 50px;
+}
+/* footer*/
+footer{
+	background-color: #0B0B61;
+	height: 60px;
+}
+.textfoot{
+	padding: 25px 0px 10px 25px;
+	color: white;
+	font-size: 14px;
 }
