@@ -17,9 +17,14 @@ hr{
 .btnVerCV{
 	width:20%;
 	height: 50%;
-	margin: 0% 80% 0% 37% !important;
 	background-color: #FA8072;
 	text-decoration: none;
+}
+.marginbutton{
+	margin: 0% 80% 0% 37% !important;
+}
+.marginbutton1{
+	margin: 0% 10% 0% 10% !important;
 }
 .segundo {
     color: #032;
